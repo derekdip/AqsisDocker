@@ -1,0 +1,15 @@
+#min.rib - a minimal scene
+Display "min.tiff" "file" "rgba"
+Display "example.png" "file" "rgba"
+Display "+example.tif" "framebuffer" "rgba"
+Projection "perspective"
+
+WorldBegin
+    Translate 0 0 2
+    Color [0 1 1]
+    Sphere 1 -1 1 360
+
+    Translate 1 0 0
+    Color [1 0 0]
+    Sphere 1 -1 1 360
+WorldEnd
