@@ -10,7 +10,7 @@ This option runs Aqsis without using an external display. You won't be able to g
 #Display "example.png" "file" "rgba"
 #and just open up the .png 
 ### Command to Run:
-`docker run -it -v $(pwd):/workspace /bin/bash`
+`docker run -it -v $(pwd):/workspace aqsis-builder /bin/bash`
 
 
 ## STEP 2 - Option 2: Connect an External Display
